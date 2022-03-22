@@ -1,16 +1,17 @@
 body {
+    
     background-image: url(./img/2176460-sfocato-ampio-panoramico-estivo-sfondo-multicolore-sfumato-vettoriale.jpg);
     background-repeat: no-repeat;
   }
   
   .container {
+    
     text-align: center;
     font-family: 'Roboto Mono',monospace;
   }
   
   .page-title {
     color:#ffffff;
-    
   }
   
   .page-subtitle {
@@ -20,10 +21,13 @@ body {
   .page-logo {
     width: 200px;
   }
-
+  .img {
+    width: 50%;
+    height: 5px;
+  }
   .sasuke {
-    max-width: 400px;
-    height: auto;
+    width: 350px;
+  
   }
   
   .naruto-logo {
@@ -34,8 +38,8 @@ body {
   }
 
   button {
-    margin-left: 205px;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-left: 7%;
     width: 200px;
     height: 50px;
     font-size: 30px;
@@ -45,6 +49,24 @@ body {
     border: solid #0086b3;
   }
   .resultado {
+    font-family: 'Roboto Mono',monospace;
+    font-size: 40px;
     text-align: center;
     color: #ffffff;
   }
+  .formulario {
+    width: 30%;
+    margin-left: 41%;
+    margin-top: 10%;
+  }
+  input {
+    margin-bottom: 10px;
+    margin-left: 2px;
+    color: #0086b3;
+    width: 250px;
+    height: 40px;
+    border: 4px solid;
+    text-align: center;
+    border-radius:8px;
+  }
+  

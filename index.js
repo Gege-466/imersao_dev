@@ -1,9 +1,9 @@
-let notaPrimeiroBimestre = 7
-let notaSegundoBimestre = 7
-let notaTerceiroBimestre = 7
-let notaQuartoBimestre = 7
+let notaPrimeiroBimestre = getElementById("n1").value
+let notaSegundoBimestre = getElementById("n2").value
+let notaTerceiroBimestre = getElementById("n3").value
+let notaQuartoBimestre = getElementById("n4").value
 
-let nota = notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre
+let nota = ((n1 + n2 + n3 + n4) / 4)
 
 function NotaFinal() {
     let elemento = document.getElementById("resultado")
