@@ -3,7 +3,7 @@ let notaSegundoBimestre = getElementById("n2").value
 let notaTerceiroBimestre = getElementById("n3").value
 let notaQuartoBimestre = getElementById("n4").value
 
-let nota = ((n1 + n2 + n3 + n4) / 4)
+let nota = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) 
 
 function NotaFinal() {
     let elemento = document.getElementById("resultado")
